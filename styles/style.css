@@ -15,7 +15,7 @@ body {
     background-size: 100px;
     background-repeat: no-repeat;
     padding: 50px;
-    border: none;
+    border: 1px solid white;
 }
 
 .triangle {
@@ -60,6 +60,10 @@ body {
 
 .item-attribute:nth-child(odd){
     margin-top: -12px;
+}
+
+.active {
+    border: 1px solid black;
 }
 
 .divider {
