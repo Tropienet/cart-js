@@ -10,10 +10,24 @@ body {
     justify-content: center;
 }
 
-.cart {
+.cart-icon-button {
     background-image: url("./images/cart-icon.jpg");
     background-size: 100px;
     background-repeat: no-repeat;
     padding: 50px;
     border: none;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid black;
+    margin-left: 35px;
+}
+
+.cart-image {
+    width: 100px;
+    height: 100px;
 }
