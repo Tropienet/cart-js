@@ -10,12 +10,18 @@ body {
     justify-content: center;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .cart-icon-button {
     background-image: url("./images/cart-icon.jpg");
     background-size: 100px;
     background-repeat: no-repeat;
     padding: 50px;
     border: 1px solid white;
+    align-self: flex-end;
 }
 
 .triangle {
@@ -24,7 +30,13 @@ body {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-bottom: 20px solid black;
-    margin-left: 35px;
+    align-self: flex-end;
+    margin-right: 30px;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .cart {
