@@ -22,3 +22,17 @@ function addEventListenerToButton(button) {
 }
 
 addEventListenerToButton(cartIconButton);
+
+const cartItemsContainer = document.querySelector(".cart-items-container");
+const upArrow = document.querySelector(".up-arrow");
+const downArrow = document.querySelector(".down-arrow");
+
+ elementHeight = document.querySelector(".cart-item").offsetHeight;
+
+upArrow.addEventListener("click", () => {
+    cartItemsContainer.scrollTop -= elementHeight + 24;
+})
+
+downArrow.addEventListener("click", () => {
+    cartItemsContainer.scrollTop += elementHeight + 24;
+})

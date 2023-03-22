@@ -40,6 +40,7 @@ body {
 .cart-item {
     display: flex;
     gap: 15px;
+    height: 160px;
 }
 
 .cart-image {
@@ -69,6 +70,11 @@ body {
 .divider {
     border: 1px solid #bbb;
     margin: 5px 0;
+}
+
+.divider:first-of-type {
+    margin-bottom: 0;
+    border: 2px solid #bbb;
 }
 
 .button-container {
@@ -103,4 +109,22 @@ body {
 
 .checkout-btn:hover {
     background-color: #2a6b2c;
+}
+
+.cart-items-container {
+    height: 504px;
+    overflow: hidden;
+}
+
+.arrow {
+    margin-top: -2px;
+    width: 100%;
+    border-radius: 0;
+    padding: 5px 0;
+    border: 1px solid grey;
+}
+
+.arrow:active {
+    background-color: white;
+    color: grey;
 }
